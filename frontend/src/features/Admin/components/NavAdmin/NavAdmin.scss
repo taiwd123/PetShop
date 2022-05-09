@@ -1,0 +1,11 @@
+.navadmin {
+    padding: 4px 20px;
+    display: block;
+    border-radius: 8px;
+    // &:hover{
+    //     background-color: #018AE0;
+    // }
+    &__active{
+        background-color: #D61C62;
+    }
+}

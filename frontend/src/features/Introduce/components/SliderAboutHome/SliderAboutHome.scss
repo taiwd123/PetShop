@@ -1,0 +1,32 @@
+.slide{
+  &__content{
+    color:#747474 ;
+    padding: 40px 40px 10px;
+  }
+  &__description{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  &__avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__review{
+    @extend .slide__avatar;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+      font-weight: 600;
+      color:#747474 ;
+
+    }
+  }
+  &__title{
+    display: block;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

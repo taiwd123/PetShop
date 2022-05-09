@@ -1,0 +1,8 @@
+.box-event{
+    &:hover img{
+        transform: scale(1.2);
+        transition: transform 0.4s linear;
+    }
+
+}
+    
